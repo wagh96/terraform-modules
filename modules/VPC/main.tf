@@ -5,7 +5,7 @@ resource "aws_flow_log" "example" {
 
 
 resource "aws_vpc" "issue_vpc" {
-  cidr_block = var.vpc_cidr_block
+  cidr_block = var.cidr_block
 }
 
 resource "aws_default_security_group" "default" {
